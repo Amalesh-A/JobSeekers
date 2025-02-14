@@ -1,8 +1,9 @@
 # Ignore environment files and sensitive information
-api_key.txt
-.env
-*.log
-.DS_Store
-node_modules/
-target/
 venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.DS_Store
+.env
+*.sqlite3
