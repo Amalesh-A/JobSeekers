@@ -1,1 +1,11 @@
-__pycache__/ *.pyc *.pyo *.pyd .env *.env *.log tests/ docs/ notebooks/ *.ipynb node_modules/ nltk_data/ *.csv *.tsv *.json *.zip *.tar *.gz *.png *.jpg *.jpeg *.mp4
+# Ignore virtual environment & cached files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.log
+notebooks/
+data/
+models/
+*.ipynb
