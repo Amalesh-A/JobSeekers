@@ -1,0 +1,1 @@
+__pycache__/ *.pyc *.pyo *.pyd .env *.env *.log tests/ docs/ notebooks/ *.ipynb node_modules/ nltk_data/ *.csv *.tsv *.json *.zip *.tar *.gz *.png *.jpg *.jpeg *.mp4
