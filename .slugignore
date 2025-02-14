@@ -1,11 +1,10 @@
-# Ignore virtual environment & cached files
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
 *.log
+datasets/
+*.csv
+*.gz
 notebooks/
-data/
-models/
-*.ipynb
+tests/
+node_modules/
+.git/
+.env
