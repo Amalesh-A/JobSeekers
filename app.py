@@ -8,6 +8,11 @@ import pandas as pd
 import os
 from MainFile import job_chatbot, normalize_input, normalize_location, normalize_remote_work, normalize_visa_sponsorship, filter_jobs, chat_with_Seeker
 from flask_session import Session
+
+from dotenv import load_dotenv
+
+# Load environment variables from .env
+load_dotenv()
 # Initialize Flask app
 app = Flask(__name__)
 app.secret_key = 'your_secret_key'
@@ -17,15 +22,14 @@ Session(app)
 # Set OpenAI API key
 #openai.api_key = "sk-UCiVzm0xlj6cS5UXHGV3wjhBSB8fhdWG2s8mUdcqCYT3BlbkFJag1xk-S_tQ92CrfVFHGIviQ5LR8GBAOt4SSxXlWrYA"
 #api_key.text = "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"
-with open("api_key.txt", "r") as file:
-    openai.api_key = file.read().strip()
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Connect to the PostgreSQL database
 DB_HOST = "localhost"
 DB_NAME = "iui_project"
 DB_USER = "postgres"
-DB_PASS = "iui" # This works for Mahirah and Emory
-# DB_PASS = "abcdefgh" # This only works for Amalesh
+#DB_PASS = "iui" # This works for Mahirah and Emory
+DB_PASS = "abcdefgh" # This only works for Amalesh
 
  
 conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)

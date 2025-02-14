@@ -1,0 +1,7 @@
+# Ignore environment files and sensitive information
+api_key.txt
+.env
+*.log
+.DS_Store
+node_modules/
+target/
