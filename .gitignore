@@ -5,3 +5,4 @@ api_key.txt
 .DS_Store
 node_modules/
 target/
+venv/
