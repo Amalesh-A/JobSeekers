@@ -19,18 +19,20 @@ app.secret_key = 'your_secret_key'
 app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
 
+DATABASE_URL = os.environ.get("DATABASE_URL")
+
 # Set OpenAI API key
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-# Connect to the PostgreSQL database
+'''# Connect to the PostgreSQL database
 DB_HOST = "localhost"
 DB_NAME = "iui_project"
 DB_USER = "postgres"
 #DB_PASS = "iui" # This works for Mahirah and Emory
-DB_PASS = "abcdefgh" # This only works for Amalesh
+DB_PASS = "abcdefgh" # This only works for Amalesh'''
 
- 
-conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
+conn = psycopg2.connect(DATABASE_URL, sslmode="require")
+#conn = psycopg2.connect(dbname=DB_NAME, user=DB_USER, password=DB_PASS, host=DB_HOST)
 '''
 class User(db.Model):
     __tablename__ = 'users'
