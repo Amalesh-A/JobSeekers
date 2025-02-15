@@ -20,8 +20,6 @@ app.config['SESSION_TYPE'] = 'filesystem'
 Session(app)
 
 # Set OpenAI API key
-#openai.api_key = "sk-UCiVzm0xlj6cS5UXHGV3wjhBSB8fhdWG2s8mUdcqCYT3BlbkFJag1xk-S_tQ92CrfVFHGIviQ5LR8GBAOt4SSxXlWrYA"
-#api_key.text = "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"
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 # Connect to the PostgreSQL database
