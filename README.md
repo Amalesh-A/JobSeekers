@@ -110,31 +110,31 @@ Replace "enter_your_openai_key" with your OpenAI key. Get your OpenAI key from "
 
 **Example Interaction:**
 
-Seeker: Do you want a detailed job search?
-You: Yes
-Seeker: What is your preferred job title?
-You: Software Engineer
-Seeker: Preferred job location (e.g., Remote, specific city)?
-You: Remote
-Seeker: What is your preferred contract? (Full-time or Part-time)
-You: Full-time
-Seeker: Do you want remote work (100% Remote, Hybrid, or No Remote)?
-You: 100% Remote
-Seeker: Do you need visa sponsorship (Yes/No)?
-You: No
+    Seeker: Do you want a detailed job search?
+    You: Yes
+    Seeker: What is your preferred job title?
+    You: Software Engineer
+    Seeker: Preferred job location (e.g., Remote, specific city)?
+    You: Remote
+    Seeker: What is your preferred contract? (Full-time or Part-time)
+    You: Full-time
+    Seeker: Do you want remote work (100% Remote, Hybrid, or No Remote)?
+    You: 100% Remote
+    Seeker: Do you need visa sponsorship (Yes/No)?
+    You: No
 
-Seeker: Here are some job recommendations for you:
-Title: Software Engineer
-Company: TechCorp
-Location: Remote
-Type: Full-time
-Remote Work: 100% Remote
+    Seeker: Here are some job recommendations for you:
+    Title: Software Engineer
+    Company: TechCorp
+    Location: Remote
+    Type: Full-time
+    Remote Work: 100% Remote
 
-License
+**License**
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-Contact
+**Contact**
 
 For any questions or issues, feel free to reach out at [amalesh.unoffical@gmail.com, ].
 
