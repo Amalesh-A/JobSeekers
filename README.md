@@ -141,3 +141,6 @@ FOR POSTGRESQL/PGADMIN:
 pip install sqlalchemy psycopg2
 
 replace DATABASE_URL = "postgresql+psycopg2://<pgadmin username>:<password>@localhost:5432/<project name in pgadmin>"
+
+
+**Demo Link:** https://drive.google.com/file/d/1oG1oXWCO5FjrJGVQzSfgBOdWkRcOyOd6/view?usp=drive_link
