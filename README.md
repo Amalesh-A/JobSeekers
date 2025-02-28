@@ -5,6 +5,9 @@ Overview
 JobSeeker is a Python-based job recommendation chatbot that helps users find suitable jobs by filtering job listings based on their preferences. The chatbot uses OpenAI's GPT-3.5-turbo for natural language processing, allowing users to specify their job preferences, such as job title, location, contract type, remote work preferences, and visa sponsorship requirements.
 
 The chatbot interacts with users through a conversational flow, gathers job preferences, and provides job recommendations from a dataset of U.S. software engineering jobs.
+
+**Demo Link:** https://drive.google.com/file/d/1oG1oXWCO5FjrJGVQzSfgBOdWkRcOyOd6/view?usp=drive_link
+
 Features
 
     Natural Language Input Normalization: 
@@ -141,6 +144,3 @@ FOR POSTGRESQL/PGADMIN:
 pip install sqlalchemy psycopg2
 
 replace DATABASE_URL = "postgresql+psycopg2://<pgadmin username>:<password>@localhost:5432/<project name in pgadmin>"
-
-
-**Demo Link:** https://drive.google.com/file/d/1oG1oXWCO5FjrJGVQzSfgBOdWkRcOyOd6/view?usp=drive_link
