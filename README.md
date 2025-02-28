@@ -1,6 +1,6 @@
 **JobSeeker: Easy Job Hunting**
 
-Overview
+**Overview**
 
 JobSeeker is a Python-based job recommendation chatbot that helps users find suitable jobs by filtering job listings based on their preferences. The chatbot uses OpenAI's GPT-3.5-turbo for natural language processing, allowing users to specify their job preferences, such as job title, location, contract type, remote work preferences, and visa sponsorship requirements.
 
@@ -8,7 +8,7 @@ The chatbot interacts with users through a conversational flow, gathers job pref
 
 **Demo Link:** https://drive.google.com/file/d/1oG1oXWCO5FjrJGVQzSfgBOdWkRcOyOd6/view?usp=drive_link
 
-Features
+**Features**
 
     Natural Language Input Normalization: 
     
@@ -26,7 +26,7 @@ Features
     
     Recommendations are shown in batches of five to avoid overwhelming the user, with the option to display more results if desired.
 
-Prerequisites
+**Prerequisites**
 
     Python 3.7+
     
@@ -38,7 +38,7 @@ Prerequisites
 
     Flask: Install using pip install flask
 
-Setup and Installation
+**Setup and Installation**
 
     Clone or download the repository.
     
@@ -52,7 +52,7 @@ Setup and Installation
 
     Ensure the dataset (us-software-engineer-jobs-updated.csv) is in the same directory as the script.
 
-Setup PostgreSQL
+**Setup PostgreSQL**
 On Mac: 
     
     brew update
@@ -64,7 +64,7 @@ On Mac:
     GRANT ALL PRIVILEGES ON DATABASE iui_project TO postgres;
     \q
 
-How to Run
+**How to Run**
 
 To run the UI:
 
@@ -88,7 +88,7 @@ To run the chatbot:
 
     Interact with the chatbot by answering its prompts. You can input job preferences, and the chatbot will return job recommendations based on your inputs.
 
-Usage
+**Usage**
 
 When prompted, provide the following details:
 
@@ -104,11 +104,11 @@ When prompted, provide the following details:
 
 The chatbot will return a list of job recommendations based on your inputs. You can ask for more recommendations or adjust your search preferences.
 
-OpenAI key:
+**OpenAI key:**
 
 Replace "enter_your_openai_key" with your OpenAI key. Get your OpenAI key from "https://platform.openai.com/docs/api-reference/authentication"
 
-Example Interaction:
+**Example Interaction:**
 
 Seeker: Do you want a detailed job search?
 You: Yes
