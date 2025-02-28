@@ -136,7 +136,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 **Contact**
 
-For any questions or issues, feel free to reach out at [amalesh.unoffical@gmail.com, ].
+For any questions or issues, feel free to reach out at [amalesharivanan.offical@gmail.com].
 
 
 FOR POSTGRESQL/PGADMIN:
